@@ -54,6 +54,7 @@ ADVANTAGES
 SYSTEM REQUIREMENTS:-
 
 HARDWARE REQUIREMENTS:
+
     • System : Intel Core i5 and above.
     • Hard Disk : 500 GB.
     • Monitor : 15 INC LED
@@ -61,24 +62,22 @@ HARDWARE REQUIREMENTS:
     • Ram : 4 GB
 
 SOFTWARE REQUIREMENTS:
+
     • Operating system : Windows 10.
     • Coding Language : Java
     • Database : MYSQL
     • Markup Languages : HTML , CSS ,Bootstrap.
     
-IMPLEMENTATION
-
+IMPLEMENTATION:
  • user module: User is the owner of data. Privacy, disaster recoverability,modification detection of user’s data is ultimate goal of this paper.
  • Owner module: Manage roles and permissions for a project and all resources within the project. Set up billing for a project, Granting the owner role at a resource level, such    as a Pub/sub topic, doesn‘t grant the owner role on the parent project, Granting the owner role at the organization level doesn‘t allow you to update the organizations          metadata. However, it also you to modify project and other resources under that organization.
  • Cloud server: Cloud server is considered as ℎ𝑜𝑛𝑒𝑠𝑡 𝑏𝑢𝑡 𝑐𝑢𝑟𝑖𝑜𝑢𝑠. This means that cloud server follows the Service Level Agreement (SLA) properly, but has an intention to          analyze user’s data. Conversely, cloud server may pretend to be good but acts as a potential adversary. In that case, cloud server may modify data in order to forge as          original data. Similarly, cloud server may hide/loss the data resulting in permanent data loss of the user. Furthermore, hardware/software failure may result in data            modification or permanent loss as well.
  • Trusted authority module: The trust store must contain any trusted client certificates used for authentication, or it must certificate of the certificate authority used to      sign the client‘s certificates. The login module is to authenticate the certificate presented by the client using the configured truststore
 
-CONCLUSION
-
+CONCLUSION:
 • It is a performance comparisons highlight that our bridging mechanism reduces computations and communication cost on the client side especially when the data of the client is encrypted and outsourced to a remote cloud. This includes the conversion between conventional identity-based and attribute-based encryptions and further proposes a concrete construction via the technique of proxy re-encryption. The construction is proved to be CPA secure in the standard model under q-decisional parallel bilinear Difﬁe–Hellman exponent assumption. The performance comparisons highlight that our bridging mechanism reduces computation and communication cost on the client side, especially when the data of the client is encrypted and outsourced to a remote cloud
 
-REFERENCE
-
+REFERENCE:-
  • G. Couteau, T. Peters, and D. Pointcheval, “Encryption switching protocols,” in Advances in Cryptology - CRYPTO 2016 - 36th Annual International Cryptology Conference, 2016,    Proceedings, Part I, ser. Lecture Notes in Computer Science, M. Robshaw and J. Katz, Eds., vol. 9814. Springer, 2016, pp. 308–338. 
  • P. Paillier, “Paillier encryption and signature schemes,” in Encyclopedia of Cryptography and Security, 2nd Ed., H. C. A. van Tilborg and S. Jajodia, Eds. Springer, 2011, pp.    902–903. 
  • A. Shamir, “Identity-based cryptosystems and signature schemes,” in Advances in Cryptology, Proceedings of CRYPTO ’84, 1984, Proceedings, 1984, pp. 47–53. 
