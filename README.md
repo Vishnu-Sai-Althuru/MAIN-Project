@@ -2,8 +2,8 @@
 A New Encrypted Data Switching Protocal: Bridging IBE and ABE WithoutLoss of Data Confidentiality.
 
 
-                                      A NEW ENCRYPTED DATA SWITCHING PROTOCOL: BRIDGING IBE AND ABE WITHOUT
-                                      LOSS OF DATA CONFIDENTIALITY
+                                A NEW ENCRYPTED DATA SWITCHING PROTOCOL: BRIDGING IBE AND ABE WITHOUT
+                                LOSS OF DATA CONFIDENTIALITY
 
 
 CONTEXT
