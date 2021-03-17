@@ -19,6 +19,7 @@ CONTEXT
 
 
 ABSTRACT
+
     • Encryption technologies have become one of the most prevalent solutions to safeguard data confidentiality in may real-world applications, e.g., cloud-based data storage systems. Encryption outputting a relatively “static" format of encrypted data, however, may hinder further data operations, for example, encrypted data may need to be “transformed" into other formats for either computation or other purposes.
     • In order to enable an encryption to be used in another device equipped with a different encryption mechanism ,the concept of encryption switching is first proposed in CRYPTO 2016 for conversion particularly between Paillier and ELGamal encryptions.
     • This paper considers the conversion between conventional identity-based and attribute-based encryptions and further proposes a concrete construction via the technique of proxy re-encryption.
