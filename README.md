@@ -7,6 +7,7 @@ A New Encrypted Data Switching Protocal: Bridging IBE and ABE WithoutLoss of Dat
 
 
 CONTEXT
+
     • ABSTRACT
     • EXISTING SYSTEM
     • DISADVANTAGES
@@ -17,6 +18,7 @@ CONTEXT
 
 
 ABSTRACT
+
     • Encryption technologies have become one of the most prevalent solutions to safeguard data confidentiality in may real-world applications, e.g., cloud-based data storage         systems. Encryption outputting a relatively “static" format of encrypted data, however, may hinder further data operations, for example, encrypted data may need to be           “transformed" into other formats for either computation or other purposes.
     • In order to enable an encryption to be used in another device equipped with a different encryption mechanism ,the concept of encryption switching is first proposed in           CRYPTO 2016 for conversion particularly between Paillier and ELGamal encryptions.
     • This paper considers the conversion between conventional identity-based and attribute-based encryptions and further proposes a concrete construction via the technique of         proxy re-encryption.
@@ -25,27 +27,32 @@ ABSTRACT
 
 
 EXISISTING SYSTEM
+
     • Mizuno and Do i have proposed an ABE → IBE type PRE construction that is able to convert a cipher text in the format of ABE to an IBE encryption. The scheme, however,           cannot achieve the conversion for the other way round, i.e. converting an IBE cipher text to an ABE encryption. Besides, only supports AND gates on positive and negative         attributes w.r.t. ABE encryption, which is with low expressiveness.
     • The trusted third party is responsible for the generation and management of public/private keys. The trusted third party may be a single server or multiple servers. The         symmetric keys are protected by combining the public key cryptography and the (k, n) threshold secret sharing schemes. Nevertheless, such schemes do not protect the data         files against tempering and loss due to issues arising from virtualization and multi-tenancy.
     • Our proposed strategy does not depend on the traditional cryptographic techniques for data security. Moreover, the methodology does not store the whole file on a single         node to avoid compromise of all of the data in case of successful attack on the node.
 
 
 DISADVANTAGES
+
     • There is no Data Fragmentations to keep data in secure way.
     • The data outsourced to a public cloud is not secured due to lack of Cloud Security.
 
 
 PROPOSED SYSTEM
+
     • In this paper we have introduced encryption switching between IBE and ABE which is the first of its type in the literature. The security notion has been defined in the           game based framework.
     • We have presented a concrete construction and meanwhile proved it to be CPA secure in the standard model under the decisional q-parallel BDHE assumption. The efficiency         analysis has highlighted that our solution outperforms the download-and-re-encrypt conversion mode w.r.t. computation and communication cost
     • In order to construct a re-encryption key we usually need to input the secret/private key of a delegato
       and the public key information of a delegate.	
 
 ADVANTAGES
+
     • A successful attack on a node might put the data confidentiality or integrity, or both at risk.
     • The system proposes not to store the entire file at a single node. The ABE methodology fragments the file and makes use of the cloud for replication. The fragments are           distributed such that no node in a cloud holds more than a single fragment, so that even a successful attack on the node leaks no significant information.
 
 SYSTEM REQUIREMENTS:-
+
 HARDWARE REQUIREMENTS:
     • System : Intel Core i5 and above.
     • Hard Disk : 500 GB.
