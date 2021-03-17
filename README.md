@@ -82,7 +82,6 @@ IMPLEMENTATION:-
 
 CONCLUSION:-
 
-
 • It is a performance comparisons highlight that our bridging mechanism reduces computations and communication cost on the client side especially when the data of the client is encrypted and outsourced to a remote cloud. This includes the conversion between conventional identity-based and attribute-based encryptions and further proposes a concrete construction via the technique of proxy re-encryption. The construction is proved to be CPA secure in the standard model under q-decisional parallel bilinear Difﬁe–Hellman exponent assumption. The performance comparisons highlight that our bridging mechanism reduces computation and communication cost on the client side, especially when the data of the client is encrypted and outsourced to a remote cloud
 
 REFERENCE:-
