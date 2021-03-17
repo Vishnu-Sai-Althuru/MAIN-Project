@@ -27,6 +27,7 @@ ABSTRACT
     • The computational costs w.r.t. re-encryption (on server side) and decryption (on client side) are acceptable in practice.
 
 EXISISTING SYSTEM
+
     • Mizuno and Do i have proposed an ABE → IBE type PRE construction that is able to convert a cipher text in the format of ABE to an IBE encryption. The scheme, however, cannot achieve the conversion for the other way round, i.e. converting an IBE cipher text to an ABE encryption. Besides, only supports AND gates on positive and negative attributes w.r.t. ABE encryption, which is with low expressiveness.
     • The trusted third party is responsible for the generation and management of public/private keys. The trusted third party may be a single server or multiple servers. The symmetric keys are protected by combining the public key cryptography and the (k, n) threshold secret sharing schemes. Nevertheless, such schemes do not protect the data files against tempering and loss due to issues arising from virtualization and multi-tenancy.
     • Our proposed strategy does not depend on the traditional cryptographic techniques for data security. Moreover, the methodology does not store the whole file on a single node to avoid compromise of all of the data in case of successful attack on the node.
